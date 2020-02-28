@@ -14,7 +14,7 @@ If you find our work useful in your research, please consider citing:
         }
 
 ### Introduction
-In L2G-AE, we focus on learning the global and local structures of point clouds in an auto-encoder architecture.
+In L2G-AE, we focus on learning the local and global structures of point clouds in an auto-encoder architecture.
 Specifically, we propose hierarchical self-attentions to learn the correlation among point features in different semantic levels by highlight the importance of each element.
 In addition, we also introduce a RNN docoding layer to decode the features of different scale areas in the local region reconstruction. 
 
