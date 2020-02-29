@@ -1,7 +1,7 @@
 ### L2G Auto-encoder: *Understanding Point Clouds by Local-to-Global Reconstruction with Hierarchical Self-Attention*
 Created by Xinhai Liu, Zhizhong Han, Xin Wen, <a href="http://cgcad.thss.tsinghua.edu.cn/liuyushen/" target="_blank">Yu-Shen Liu</a>, Matthias Zwicker.
 
-![framework](https://github.com/liuxinhai/L2G-AE/raw/master/doc/L2G-AE.jpg)
+![framework](https://github.com/liuxinhai/L2G-AE/blob/master/doc/L2G-AE.jpg)
 
 ### Citation
 If you find our work useful in your research, please consider citing:
