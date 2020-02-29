@@ -30,20 +30,12 @@ Before running the code, you need to compile customized TF operators as describe
 
 To train a Point2Sequence model to classify ModelNet40 shapes (using point clouds with XYZ coordinates):
 
-        python train.py
+        python train_hierarchical_attention.py
 
 To see all optional arguments for training:
 
-        python train.py -h
+        python train_hierarchical_attention.py -h
 
-In the training process, we also evaluate the performance the model.
-
-#### Shape Part Segmentation
-
-To train a model to segment object parts for ShapeNet models:
-
-        cd part_seg
-        python train.py
 #### Prepare Your Own Data
 Follow the dataset in PointNet++, you can refer to <a href="https://github.com/charlesq34/3dmodel_feature/blob/master/io/write_hdf5.py">here</a> on how to prepare your own HDF5 files for either classification or segmentation. Or you can refer to `modelnet_dataset.py` on how to read raw data files and prepare mini-batches from them.
 ### License
@@ -53,3 +45,4 @@ Our code is released under MIT License (see LICENSE file for details).
 
 * <a href="https://arxiv.org/abs/1706.02413" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017)
 * <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.html" target="_blank">Attentional ShapeContextNet for Point Cloud Recognition</a> by Xie et al. (CVPR 2018)
+* <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4903" target="_blank">Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-Based Sequence to Sequence Network</a> by Liu et al. (AAAI 2019)
