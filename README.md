@@ -45,4 +45,5 @@ Our code is released under MIT License (see LICENSE file for details).
 
 * <a href="https://arxiv.org/abs/1706.02413" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017)
 * <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.html" target="_blank">Attentional ShapeContextNet for Point Cloud Recognition</a> by Xie et al. (CVPR 2018)
+* <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_PU-Net_Point_Cloud_CVPR_2018_paper.pdf" target="_blank">PU-Net: Point Cloud Upsampling Network</a> by Yu et al. (CVPR 2018)
 * <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4903" target="_blank">Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-Based Sequence to Sequence Network</a> by Liu et al. (AAAI 2019)
