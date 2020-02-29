@@ -26,7 +26,7 @@ Install <a href="https://www.tensorflow.org/install/">TensorFlow</a>. The code i
 Before running the code, you need to compile customized TF operators as described in <a href="https://github.com/charlesq34/pointnet2/">PointNet++</a>.
 ### Usage
 
-#### Shape Classification， Shape Retrieval and Unsupervised Point Cloud Upsampling
+#### Shape Classification, Shape Retrieval and Unsupervised Point Cloud Upsampling
 
 To train a Point2Sequence model to classify ModelNet40 shapes (using point clouds with XYZ coordinates):
 
@@ -37,7 +37,7 @@ To see all optional arguments for training:
         python train_hierarchical_attention.py -h
 
 #### Prepare Your Own Data
-Follow the dataset in PointNet++, you can refer to <a href="https://github.com/charlesq34/3dmodel_feature/blob/master/io/write_hdf5.py">here</a> on how to prepare your own HDF5 files for either classification or segmentation. Or you can refer to `modelnet_dataset.py` on how to read raw data files and prepare mini-batches from them. To prepare the data of point cloud upsampling, you can refer to <a href=" https://github.com/yulequan/PU-Net">PU-Net</a>.
+Follow the dataset in PointNet++, you can refer to <a href="https://github.com/charlesq34/3dmodel_feature/blob/master/io/write_hdf5.py">here</a> on how to prepare your own HDF5 files for either classification or segmentation. Or you can refer to `modelnet_dataset.py` on how to read raw data files and prepare mini-batches from them.
 ### License
 Our code is released under MIT License (see LICENSE file for details).
 
